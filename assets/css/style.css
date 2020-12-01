@@ -1645,7 +1645,7 @@ img {
 .mu-comments-area .comments .commentlist li .children {
   margin-left: 50px;
 }
-.mu-comments-area .comments .commentlist li .author-tag {
+.mu-comments-area .comments .commentlist li .userName-tag {
   color: #fff;
   display: inline-block;
   font-size: 12px;
@@ -1654,7 +1654,7 @@ img {
   margin-bottom: 5px;
   padding: 4px 8px;
 }
-.mu-comments-area .comments .commentlist li .author-comments {
+.mu-comments-area .comments .commentlist li .userName-comments {
   background-color: #f8f8f8;
 }
 .mu-comments-area .comments .commentlist .children {
