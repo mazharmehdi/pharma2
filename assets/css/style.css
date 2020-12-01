@@ -359,7 +359,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  height: 600px;
+  height: 650px;
 }
 #mu-slider .mu-slider-single .mu-slider-img:after {
   background-color: rgba(0, 0, 0, 0.356);
@@ -3601,8 +3601,17 @@ text-align: right;
 
 .font-italic{
   font: italic  16px/26px Georgia, serif;
- margin-left: 10px;
+ margin-left: 12px;
  font-weight: 400;
+
+}
+.font-italic1{
+
+ margin-left: 10px;
+font-weight: 700;
+color: gray;
+ font-family: 'Titillium Web', sans-serif;
+ font-size: 22px;
 }
 
 
@@ -3728,3 +3737,204 @@ text-align: right;
   text-align: center;
   opacity: 80%;
 }
+
+
+
+.mu-course-content-area1{
+  background-color: #999999;
+  height: 50%;
+  width: 100%;
+}
+
+.circle-image{
+  position: relative;
+border-radius: 50%;
+width: 100%;
+background: white;
+display: block;
+margin: 0 0 6em 0;
+width: 100%;
+
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  position: relative;
+  box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.circle-image1{
+  float: right;
+	width: 520px;
+	height: 420px;
+	border-radius: 5%;
+	margin-right: 15px;
+  shape-outside: circle(farthest-side at 25% 25%);
+	shape-margin: 15px;
+  shape-outside: inset(0px round 100px) border-box;
+margin: 10px;
+  position: relative;
+  box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 60px;
+}
+
+.locationaboutus{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+.location{
+  margin-top: 5px;
+}
+
+
+
+.wrapper.style2 {
+  background-color: #3498db;
+  color: #aed6f1;
+  width: 100%;
+  float: none;
+}
+
+.wrapper2 {
+  padding: 6em 32em 4em 0;
+  position: relative;
+}
+
+
+#class1{
+  background-color: #3498db;
+  color: #aed6f1;
+  width: 100%;
+}
+
+.font-italic2{
+  margin-left: 10px;
+font-weight: 700;
+color: rgb(255, 249, 249);
+ font-family: 'Titillium Web', sans-serif;
+ font-size: 20px;
+ margin-bottom: 50px;
+ float: inline-start;
+margin: 5px;
+}
+
+.font-italic3{
+  margin-left: 10px;
+font-weight: 700;
+color: rgb(0, 0, 0);
+ font-family: 'Titillium Web', sans-serif;
+ font-size: 20px;
+ margin-top: -22px;
+}
+
+
+.section-title{
+  align-items: center;
+  font-size: 30px;
+   color: rgb(90, 90, 90);
+    font-weight: 800;
+}
+
+.testimonials1{
+  margin-top: 75px;
+}
+
+
+.marginrigh{
+  font-size: 30px;
+   color: rgb(90, 90, 90);
+    font-weight: 800;
+    text-align: right;
+}
+
+
+
+
+.testimonial1-img{
+  position: relative;
+  border-radius: 30%;
+  width: 15%;
+  background: rgb(151, 151, 151);
+  display: block;
+  
+  margin-top: 50px;
+
+
+  
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    position: relative;
+    box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.testimonial1-img .p{
+  text-align: center;
+  text-emphasis: 600;
+}
+
+
+
+
+
+.testimonial_subtitle{
+  color: #0aaa7a;
+  font-size: 28px;
+}
+.testimonial_btn{
+  background-color: #373d4b !important;
+  color: #fff !important;
+}
+.seprator {
+  height: 3px;
+  width: 180px;
+  background-color: #fc0000;
+  margin: 7px 0 10px 0;
+  align-content: center;
+}
+
+.testimonial_para{
+  font-size: 28px;
+}
+
+#map{
+ margin-left: 10%;
+ margin-top: 60px;
+ margin-bottom: 60px;
+ 
+}
+
+
+.seprator1 {
+  height: 2px;
+  width: 200px;
+  background-color: #ff0000;
+  margin: 2px 0 10px 0;
+  float: right;
+}
+
+
+.mapright {
+  position: absolute;
+  bottom: 4px;
+  left: 20%;
+  font-weight: 900;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 60px;
+  cursor: pointer;
+  border-style: none;
+  background-color: #ff3838;
+  color:#fff;
+  font-size: 20px;
+  outline: none;
+  box-shadow: 0px 2px 3px rgba(0,0,0,.4);
+  transition: all .5s ease-in-out;
+  border-radius: 20px;
+  text-align: center;
+  z-index: 10000;
+} 
